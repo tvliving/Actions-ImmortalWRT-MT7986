@@ -15,4 +15,4 @@
 
 # Add a feed source
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-echo 'src-git argon https://github.com/1q23lyc45/luci-theme-argon.git' >>feeds.conf.default
+git clone --depth 1 https://github.com/1q23lyc45/luci-theme-argon package/luci-theme-argon
